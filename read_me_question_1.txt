@@ -12,7 +12,7 @@ The code instructions: If you want to replicate my results, you need to do these
 4. Run 'ols.m' with your matlab. The prediction on the test data set is 'predict_ols'. 
 5. You may see different predictions if you run it yourself. Don't panic: we are just using different random seed. Neural network and random forest both depend on some random number generators.
 
-I suggest you take the prediction by random forest.
+I suggest you take the prediction by random forest. On this data set, random forest is better than linear regression which is better than neural network in terms of the mean square errors.
 
 Warning: DO NOT try to merge the 3 matlab scripts into a big one and run. This is because the names of the functions and variables conflict. Matlab, like Python or other scripting languages, can't be built with a dependency file, which is different from languages like C, JAVA. It is also to prevent loading too much stuff into the memory in one time. 
 
