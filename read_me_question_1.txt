@@ -20,4 +20,4 @@ If you want to save the time and look into the raw matlab outputs. Yes. I save t
 
 https://github.com/givenwong/capitalone-project
 
-
+For viewing the mat file, you need to open that with your matalb because it is binary rather than ASCII file.
